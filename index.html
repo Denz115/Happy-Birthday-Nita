@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Polaroid tentang kita</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;700&family=Sacramento&display=swap"
+  rel="stylesheet"
+/>
+  </head>
+  <body>
+      <div class="watermark-denit">By : DeNit</div>
+      <!--  BARU: TIRAI PEMBUKA RGB  -->
+    <div id="curtain-overlay">
+      <div class="curtain-panel curtain-top"></div>
+      <div class="curtain-panel curtain-bottom"></div>
+      <div class="rgb-divider"></div>
+      <button id="open-curtain-btn" class="rgb-button">Klik disini &#128536;</button>
+    </div>
+    
+    <section id="intro-page" class="page">
+      <div class="content-wrapper">
+        <div class="polaroids-container">
+          <div class="polaroid p1">
+            <div class="photo">
+              <img src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/pp2.jpg" alt="Couple Photo 1" />
+            </div>
+          </div>
+          <div class="polaroid p2">
+            <div class="photo">
+              <img src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/pp1.jpg" alt="Couple Photo 2" />
+            </div>
+          </div>
+        </div>
+        <h1 class="main-title">Tentang<br />Kita! <span class="heart-icon">&#x2764;&#xFE0F;</span></h1>
+      </div>
+      <div class="instruction">Sentuh Hati nya untuk Buka</div>
+    </section>
+
+    <section id="book-page" class="page hidden" style="opacity: 0">
+      <!-- BARU: Wadah untuk kelopak bunga jatuh -->
+      <div id="petal-container"></div>
+      <!-- 🔥 BARU: Dua Merpati Terbang 🔥 -->
+      <div class="dove dove-left">
+          <img src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/merpati.gif" alt="Merpati Kiri">
+      </div>
+      <div class="dove dove-right">
+          <img src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/merpati.gif" alt="Merpati Kanan">
+      </div>
+
+      <div id="ink-station-prolog">
+          <img id="inkp1-prolog" src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/tinta.png" alt="Wadah Tinta">
+          <img id="inkp2-prolog" src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/tinta.png" alt="Efek Mencelup">
+      </div>
+      
+      <img id="movingQuill-prolog" src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/pena.gif" alt="Pena">
+
+      <div class="background-flowers">
+        <div class="flower f1">&#x1F338;</div>
+        <div class="flower f2">&#x1F33A;</div>
+        <div class="flower f3">&#x1F33C;</div>
+        <div class="flower f4">&#x1F33B;</div>
+        <div class="flower f5">&#x1F339;</div>
+        <div class="flower f6">&#x1F337;</div>
+        <div class="flower f7">&#x1F338;</div>
+        <div class="flower f8">&#x1F33A;</div>
+      </div>
+
+      <div class="book-wrapper">
+        <h2 class="prologue">Prolog</h2>
+        <div id="book" class="book">
+          <div id="p1" class="paper">
+            <div class="front">
+              <div id="f1" class="front-content">
+                <div class="polaroid-small">
+                  <img src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/prolog1.jpg" alt="Us" />
+                </div>
+              </div>
+            </div>
+            <div class="back">
+              <div id="b1" class="back-content">
+                <p class="handwritten">
+                  Selamat ulang tahun, istriku<br>tercinta, Nita Refina.<br /><br />Di hari yang sangat spesial ini, aku<br>cuma mau bilang terima kasih.<br>Terima kasih karena kamu udah<br>hadir, bertahan, dan selalu jadi<br>bagian paling berharga dalam<br>perjalanan hidupku. Kehadiranmu<br>bikin hari-hariku penuh warna.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="p2" class="paper">
+            <div class="front">
+              <div id="f2" class="front-content">
+                <p class="handwritten">
+                  Lewat kata-kata yang mungkin<br>menurutmu membosankan ini, tapi<br>dari lubuk hatiku yang paling dalam,<br>aku mau minta maaf.<br /><br />Maaf karena aku masih sering egois,<br>menuruti keras kepalaku sendiri, dan<br>tanpa sadar kadang bikin kamu<br>ngerasa lelah, sedih, atau nggak<br>nyaman dengan sikapku.
+                </p>
+                <div class="stamp">DeNit</div>
+              </div>
+            </div>
+            <div class="back">
+              <div id="b2" class="back-content">
+                <div class="polaroid-small">
+                  <img src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/prolog0.jpg" alt="Memories" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="p3" class="paper">
+            <div class="front">
+              <div id="f3" class="front-content">
+                <p class="handwritten">
+                  Aku sadar betul, aku masih jauh dari<br>kata sempurna buat kamu.<br /><br />Tapi kamu selalu luar biasa. Terima<br>kasih atas semua kesabaranmu yang<br>seolah nggak ada habisnya<br>menghadapiku, dan untuk cinta tak<br>terhingga yang selalu kamu berikan<br>untuk aku.
+                </p>
+              </div>
+            </div>
+            <div class="back">
+              <div id="b3" class="back-content">
+                <p class="handwritten">
+                  Doaku di usiamu yang baru ini,<br>semoga Allah selalu melapangkan<br>rezekimu. Semoga kamu selalu<br>diberikan kesehatan, dilimpahi<br>kebahagiaan, dan senyum manismu<br>itu nggak pernah pudar untukku.<br /><br />Aku ingin selalu melihat kamu<br>tersenyum, karena senyummu adalah<br>semangatku. Semoga semua yang<br>kamu semogakan bisa segera<br>terwujud.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="p4" class="paper">
+            <div class="front">
+              <div id="f4" class="front-content">
+                <div class="polaroid-small">
+                  <img src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/mc2.jpg" alt="Us" />
+                </div>
+              </div>
+            </div>
+            <div class="back">
+              <div id="b4" class="back-content">
+                <p class="handwritten">
+                  Dan untuk kita... harapanku cuma<br>satu. Aku pengen kita bisa terus<br>sama-sama, melangkah beriringan.<br /><br />Apapun rintangan di depan nanti,<br>seberat apapun ujian yang mungkin<br>datang, aku mau kita tetap bersama.<br>Saling menggenggam erat tangan<br>satu sama lain dan nggak pernah<br>melepaskan.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="p5" class="paper">
+            <div class="front">
+              <div id="f5" class="front-content">
+                <p class="handwritten">
+                  Terima kasih karena selalu jadi<br>tempatku berpulang yang paling<br>menenangkan.<br /><br />Di saat dunia di luar rasanya lagi<br>berat dan melelahkan, kamu selalu<br>jadi sandaran yang paling nyaman<br>buatku. Bersamamu, segala lelahku<br>rasanya sirna begitu saja.
+                </p>
+              </div>
+            </div>
+            <div class="back">
+              <div id="b5" class="back-content">
+                <div class="polaroid-small">
+                  <img src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/prolog3.jpg" alt="Us" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="p6" class="paper">
+            <div class="front">
+              <div id="f6" class="front-content">
+                <p class="handwritten">
+                  Keinginanku sangat sederhana,<br>namun sangat berarti bagiku "aku<br>ingin terus nemenin kamu."<br /><br /> mengukir perjalanan yang penuh<br>warna lagi, dan menua di sampingmu<br>selamanya. Bagiku, itu adalah definisi<br>bahagia yang paling sempurna.
+                </p>
+              </div>
+            </div>
+            <div class="back">
+              <div id="b6" class="back-content">
+                <p class="handwritten">
+                  Aku janji, aku akan terus belajar dan berusaha<br>keras setiap harinya.<br /><br />Berusaha untuk menjadi  jauh lebih<br>baik lagi buat kamu. Karena aku<br>sadar, aku ingin terus berada<br>disampingmu.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="p7" class="paper">
+            <div class="front">
+              <div id="f7" class="front-content">
+                <div class="polaroid-small">
+                  <img src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/prolog4.jpg" alt="Us" />
+                </div>
+              </div>
+            </div>
+            <div class="back">
+              <div id="b7" class="back-content">
+                <p class="handwritten">
+                  Tolong jangan pernah berubah ya,<br>sayang. Tetaplah jadi Nita yang aku<br>kenal dan aku cintai.<br /><br />Mari kita hadapi semuanya sama-<br>sama. Kita wujudkan satu per satu<br>semua rencana, harapan, serta<br>mimpi-mimpi indah kita, berdua.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="p8" class="paper">
+            <div class="front">
+              <div id="f8" class="front-content">
+                <p class="handwritten">
+                  Sekali lagi, selamat ulang tahun, Nita<br>Refina sayang.<br /><br />Semoga langkah kita selalu<br>dimudahkan. Aku sangat<br>menyayangimu. Kemarin, hari ini,<br>esok, dan untuk selamanya.
+                </p>
+                <div class="stamp">Love You Nita</div>
+              </div>
+            </div>
+            <div class="back">
+              <div id="b8" class="back-content">
+                <p class="handwritten">Klik untuk kejutan selanjutnya...</p>
+              </div>
+            </div>
+          </div>
+        </div> </div> </section> 
+
+    <section id="box-page" class="page hidden" style="opacity: 0">
+      <h2 class="box-title">Aku ingin terus disampingmu</h2>
+
+      <div class="box-container" id="photos-container">
+        <img src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/box1.png" class="box-image" alt="Box" />
+
+        <div id="photo-cluster" class="photo-cluster">
+        <div class="box-photo bp1" onclick="openLightbox(this, event)" data-msg="Masih ingat senyum manismu di memori ini. Tawamu akan selalu jadi rumah tempat aku berpulang saat duniaku abu-abu.">
+          <img src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/ppbox1.jpg" alt="Memory 1" />
+        </div>
+        <div class="box-photo bp2" onclick="openLightbox(this, event)" data-msg="Melihat wajahmu di foto ini bikin aku sadar... aku adalah laki-laki paling beruntung di dunia karena bisa memilikimu seutuhnya.">
+          <img src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/ppbox2.jpg" alt="Memory 2" />
+        </div>
+        <div class="box-photo bp3" onclick="openLightbox(this, event)" data-msg="Dunia di luar sana mungkin terus berubah, tapi caraku menatap dan mencintaimu hari ini masih sama persis seperti saat pertama kali kita bersama.">
+          <img src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/ppbox3.jpg" alt="Memory 3" />
+        </div>
+        <div class="box-photo bp4" onclick="openLightbox(this, event)" data-msg="Kamu bukan cuma sekadar pasangan buatku, Sayang. Kamu adalah tujuanku. Tanpamu, cerita hidupku nggak akan pernah seindah ini.">
+          <img src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/ppbox4.jpg" alt="Memory 4" />
+        </div>
+        <div class="box-photo bp5" onclick="openLightbox(this, event)" data-msg="Tolong jangan pernah lelah menghadapiku ya. Mari kita kumpulkan lebih banyak lagi senyum, uban, dan kebahagiaan bersama-sama selamanya.">
+          <img src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/ppbox5.jpg" alt="Memory 5" />
+        </div>
+      </div>
+      <button id="to-music-page" class="nav-btn hidden">Next &rarr;</button>
+    </section>
+
+    <section id="music-page" class="page hidden" style="opacity: 0">
+      <div class="music-content">
+        <div id="cassette-wrapper" class="cassette-wrapper">
+          <img
+            src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/9448086.png"
+            alt="Cassette Tape"
+            class="cassette-img"
+          />
+          <p class="cassette-label">Laguku</p>
+        </div>
+
+        <div id="spotify-wrapper" class="spotify-wrapper hidden">
+          <div class="custom-player">
+            <div class="now-playing">
+              <img src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/coverplaylist.jpg" alt="Cover" class="album-art" />
+              <div class="track-info">
+                <p class="now-playing-title">Sebuah Cinta Yang Hilang</p>
+                <p class="now-playing-artist">ViGe</p>
+              </div>
+            </div>
+
+            <div class="player-controls">
+              <div class="progress-container">
+                <span id="current-time">0:00</span>
+                <input type="range" id="seek-bar" value="0" min="0" max="100" step="1">
+                <span id="total-time">0:00</span>
+              </div>
+              <div class="control-buttons">
+                <button id="prev-btn" class="ctrl-btn">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zm2.5 6l8.5 6V6z"/></svg>
+                </button>
+                <button id="play-pause-btn" class="ctrl-btn play-btn">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+                <button id="next-btn" class="ctrl-btn">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 4l11 8-11 8V4zm11 0h2v16h-2V4z"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="playlist-list">
+              <div class="song-item active" data-src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Musik/Pasrah.mp3">
+                <span class="song-index">1</span>
+                <div class="song-details">
+                  <p class="song-title">Pasrah</p>
+                  <p class="song-artist">ViGe</p>
+                </div>
+              </div>
+              <div class="song-item" data-src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Musik/Kesunyian%20tanpamu%20(Remastered%20x2).mp3">
+                <span class="song-index">2</span>
+                <div class="song-details">
+                  <p class="song-title">Kesunyian Tanpamu</p>
+                  <p class="song-artist">ViGe</p>
+                </div>
+              </div>
+              <div class="song-item" data-src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Musik/Aku%20Cemburu%20(1).mp3">
+                <span class="song-index">3</span>
+                <div class="song-details">
+                  <p class="song-title">Aku Cemburu</p>
+                  <p class="song-artist">ViGe</p>
+                </div>
+              </div>
+              <div class="song-item" data-src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Musik/Ada%20Dinding%20diantara%20Kita.mp3">
+                <span class="song-index">4</span>
+                <div class="song-details">
+                  <p class="song-title">Ada Dinding diantara Kita</p>
+                  <p class="song-artist">ViGe</p>
+                </div>
+              </div>
+              <div class="song-item" data-src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Musik/Aku%20kalah%20oleh%20kenangan%20(Remastered).mp3">
+                <span class="song-index">5</span>
+                <div class="song-details">
+                  <p class="song-title">Aku Kalah oleh Kenangan</p>
+                  <p class="song-artist">ViGe</p>
+                </div>
+              </div>
+              <div class="song-item" data-src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Musik/AudioCutter_Kita%20Punya%20Cerita.mp3">
+                <span class="song-index">6</span>
+                <div class="song-details">
+                  <p class="song-title">Kita Punya Cerita</p>
+                  <p class="song-artist">ViGe</p>
+                </div>
+              </div>
+              <div class="song-item" data-src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Musik/Mungkin%20Akhirnya.mp3">
+                <span class="song-index">7</span>
+                <div class="song-details">
+                  <p class="song-title">Mungkin Akhirnya (Beta)</p>
+                  <p class="song-artist">ViGe</p>
+                </div>
+              </div>
+              <div class="song-item" data-src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Musik/Lelah.mp3">
+                <span class="song-index">8</span>
+                <div class="song-details">
+                  <p class="song-title">Lelah (Beta)</p>
+                  <p class="song-artist">ViGe</p>
+                </div>
+              </div>
+              <div class="song-item" data-src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Musik/Lelah%20Berharap.mp3">
+                <span class="song-index">9</span>
+                <div class="song-details">
+                  <p class="song-title">Lelah Berharap</p>
+                  <p class="song-artist">ViGe</p>
+                </div>
+              </div>
+              <div class="song-item" data-src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Musik/Sesakit%20ini%20mencintaimu%20(Remastered)%20(1).mp3">
+                <span class="song-index">10</span>
+                <div class="song-details">
+                  <p class="song-title">Sesakit ini Mencintaimu</p>
+                  <p class="song-artist">ViGe</p>
+                </div>
+              </div>
+              <div class="song-item" data-src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Musik/Kekosongan%20hati%20(Cover)%20(Remastered).mp3">
+                <span class="song-index">11</span>
+                <div class="song-details">
+                  <p class="song-title">Kekosongan Hati</p>
+                  <p class="song-artist">ViGe</p>
+                </div>
+              </div>
+              <div class="song-item" data-src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Musik/Kita%20pernah%20bermimpi%20(Remastered).mp3">
+                <span class="song-index">12</span>
+                <div class="song-details">
+                  <p class="song-title">Kita pernah Bermimpi</p>
+                  <p class="song-artist">ViGe</p>
+                </div>
+              </div>
+              <div class="song-item" data-src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Musik/Tak%20Sejalan.mp3">
+                <span class="song-index">13</span>
+                <div class="song-details">
+                  <p class="song-title">Tak Sejalan</p>
+                  <p class="song-artist">ViGe</p>
+                </div>
+              </div>
+            </div>
+            
+            <audio id="playlist-audio"></audio>
+          </div>
+        </div>
+      </div>
+      <button id="to-video-page" class="nav-btn hidden">Next  </button>
+    </section>
+
+<section id="video-page" class="page hidden" style="opacity: 0">
+  <div class="video-wrapper">
+    <h2 class="video-title">Momen Kita Bersama</h2>
+    
+    <div class="video-container vertical-video">
+      <video 
+        controls 
+        width="100%" 
+        src="https://dl.dropboxusercontent.com/scl/fi/ep220qzphi74nv2swsu88/videokenangansd.mp4?rlkey=bdyv6b75a4t1t8pevghs774j5&st=hxwlv815&dl=0" 
+        style="border-radius: 12px; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);"
+      ></video>
+    </div>
+
+    <div class="video-buttons-container hidden" id="video-buttons">
+      <button id="open-message-btn" class="nav-btn msg-btn">Pesan Spesial  </button>
+      <button id="back-to-start" class="nav-btn">Mulai ulang &rarr;</button>
+    </div>
+  </div>
+</section>
+
+    <div id="message-modal" class="modal hidden">
+      <div class="modal-content glass-effect" id="scale-wrapper">
+        <span class="close-modal">&times;</span>
+        
+        <div id="ink-station">
+            <img id="inkp1" src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/tinta.png" alt="Wadah Tinta">
+            <img id="inkp2" src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/tinta.png" alt="Efek Mencelup">
+        </div>
+        
+        <img id="movingQuill" src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Image/pena.gif" alt="Pena">
+        
+        <div class="handwritten-msg" id="typed-message"></div>
+        
+        <div id="secret-msg" class="hidden">Terima kasih sudah membaca<br>sampai akhir, sayang.<br><br>Prolog ini hanyalah sebagian<br>kecil dari cerita manis kita.<br>Ke depannya, semoga lebih<br>banyak lagi memori indah<br>bersama-sama yang kita ukir.<br><br>Semoga kamu tidak pernah<br>berubah, tetap jadi Nita yang<br>dulu, Nita yang pernah<br>mewarnai hidupku dan yang<br>selalu mencintaiku, jangan<br>pernah berubah lagi untuk<br>selamanya ya <br><br><strong>I love you, <span class="pink">Nita Refina.</span></strong></div>
+      </div>
+    </div>
+
+    <!--  BARU: EFEK KILAT KAMERA  -->
+    <div id="camera-flash"></div>
+
+    <div id="lightbox" class="lightbox hidden">
+      <span class="close-btn" onclick="closeLightbox()">&times;</span>
+      
+      <!--  BARU: WADAH KARTU BISA DI-FLIP  -->
+      <div class="flip-container">
+        <div id="lightbox-flip-inner" class="flip-inner">
+          <div class="flip-front">
+            <img id="lightbox-img" src="" alt="Zoomed" />
+          </div>
+          <div class="flip-back">
+            <div id="lightbox-msg" class="flip-back-text"></div>
+          </div>
+        </div>
+        <div class="swipe-instruction"> &#128536; Geser foto ke kanan &#128536;</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <audio id="bg-music" loop>
+      <source src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Musik/Nitaku.mp3" type="audio/mpeg">
+    </audio>
+    
+    <audio id="pen-sound" src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Musik/soundpena.mp3" loop></audio>
+    <audio id="camera-sound" src="https://github.com/Denz115/Happy-Birthday-Nita/raw/refs/heads/main/Musik/kamera.mp3" preload="auto"></audio>
+  </body>
+</html>
